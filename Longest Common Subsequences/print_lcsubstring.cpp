@@ -21,8 +21,8 @@ string lcs(string x, string y, int n, int m){
 }
 
 int main(){
-    string x = "abcdgh";
-    string y = "acdghr";
+    string x = "babxd";
+    string y = "dxbab";
     cout<<lcs(x, y, x.size(), y.size());
     return 0;
 }
